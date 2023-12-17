@@ -4,9 +4,9 @@
   "description": "Cucumber Framework",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run --env allure=true",
-    "runtests":"npm run test -- ",
-    "report":"npx allure generate allure-results --clean -o allure-report"
+    "test": "node_modules\\.bin\\cypress run ",
+    "runtests":"npm run test -- "
+   
 
   },
   "keywords": [

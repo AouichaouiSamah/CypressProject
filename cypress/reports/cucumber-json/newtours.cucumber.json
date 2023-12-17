@@ -31,7 +31,7 @@
             "name": "open newtours application",
             "result": {
               "status": "passed",
-              "duration": 4603000000
+              "duration": 4406000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "I log in as Following",
             "result": {
               "status": "passed",
-              "duration": 972000000
+              "duration": 754000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "click on submit button",
             "result": {
               "status": "passed",
-              "duration": 2391000000
+              "duration": 2136000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "verify title should be 'Login: Mercury Tours'",
             "result": {
               "status": "passed",
-              "duration": 336000000
+              "duration": 55000000
             }
           }
         ]
@@ -103,7 +103,7 @@
             "name": "open newtours application",
             "result": {
               "status": "passed",
-              "duration": 1956000000
+              "duration": 1873000000
             }
           },
           {
@@ -130,7 +130,7 @@
             "name": "I log in as Following",
             "result": {
               "status": "passed",
-              "duration": 831000000
+              "duration": 752000000
             }
           },
           {
@@ -140,7 +140,7 @@
             "name": "click on submit button",
             "result": {
               "status": "passed",
-              "duration": 1321000000
+              "duration": 1177000000
             }
           },
           {
@@ -150,7 +150,7 @@
             "name": "verify title should be 'Login: Mercury Tours'",
             "result": {
               "status": "passed",
-              "duration": 201000000
+              "duration": 119000000
             }
           }
         ]
