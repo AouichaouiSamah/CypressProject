@@ -1,0 +1,86 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "newtours validation",
+    "line": 1,
+    "id": "newtours-validation",
+    "tags": [],
+    "uri": "newtours_login.feature",
+    "elements": [
+      {
+        "id": "newtours-validation;home-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Home Page",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          },
+          {
+            "name": "@sanity",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "open newtours application",
+            "result": {
+              "status": "passed",
+              "duration": 9261000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "userName",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mercery",
+                      "mercery"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I log in as Following",
+            "result": {
+              "status": "undefined",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "click on submit button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "verify title should be  'Login: Mercury Tours'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

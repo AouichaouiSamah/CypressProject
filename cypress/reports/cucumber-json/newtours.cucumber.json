@@ -1,0 +1,160 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "newtours validation",
+    "line": 1,
+    "id": "newtours-validation",
+    "tags": [],
+    "uri": "newtours.feature",
+    "elements": [
+      {
+        "id": "newtours-validation;home-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Home Page",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          },
+          {
+            "name": "@sanity",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "open newtours application",
+            "result": {
+              "status": "passed",
+              "duration": 4603000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "userName",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mercury",
+                      "mercury"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I log in as Following",
+            "result": {
+              "status": "passed",
+              "duration": 972000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "click on submit button",
+            "result": {
+              "status": "passed",
+              "duration": 2391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "verify title should be 'Login: Mercury Tours'",
+            "result": {
+              "status": "passed",
+              "duration": 336000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "newtours-validation;verifying-my-title",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verifying my Title",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "open newtours application",
+            "result": {
+              "status": "passed",
+              "duration": 1956000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "userName",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mercury",
+                      "mercury"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I log in as Following",
+            "result": {
+              "status": "passed",
+              "duration": 831000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "click on submit button",
+            "result": {
+              "status": "passed",
+              "duration": 1321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "verify title should be 'Login: Mercury Tours'",
+            "result": {
+              "status": "passed",
+              "duration": 201000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
